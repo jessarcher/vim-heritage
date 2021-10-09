@@ -28,7 +28,7 @@ And then in normal mode with the cursor on the file path, press `gf` to open a n
 ## Credits
 
 * [This Stack Overflow answer](https://stackoverflow.com/a/4294176) for the code.
-* [Tim MacDonald](https://twitter.com/timacdonald87) for the name.
+* [Tim MacDonald](https://twitter.com/timacdonald87) and [Jaz MacDonald](https://twitter.com/Jaz_MacDonald) for the name.
 
 ## License
 
