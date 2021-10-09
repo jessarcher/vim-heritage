@@ -24,3 +24,12 @@ file_get_contents('tests/fixtures/payload.json');
 ```
 
 And then in normal mode with the cursor on the file path, press `gf` to open a new buffer for that path, and then be able to freely write to it without needing to manually create the path or directories.
+
+## Credits
+
+* [This Stack Overflow answer](https://stackoverflow.com/a/4294176) for the code.
+* [Tim MacDonald](https://twitter.com/timacdonald87) for the name.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
