@@ -14,7 +14,7 @@ This is helpful when combined with the following mapping (taken from `:help gf`)
 
 ```vim
 " Allow gf to open non-existent files
-map gf :edit <cfile><cr>
+map gf :edit %:h/<cfile><cr>
 ```
 
 This allows you to type a non-existing file path in a document like so:
