@@ -13,7 +13,7 @@ And when you write the buffer (i.e. `:w`) it will create the missing directories
 This is helpful when combined with the following mapping (taken from `:help gf`):
 
 ```vim
-" Allow gf to open non-existent files
+" Allow gf to open non-existent files relative to cwd:
 map gf :edit <cfile><cr>
 ```
 
@@ -24,6 +24,13 @@ file_get_contents('tests/fixtures/payload.json');
 ```
 
 And then in normal mode with the cursor on the file path, press `gf` to open a new buffer for that path, and then be able to freely write to it without needing to manually create the path or directories.
+
+Alternatively, you can use the following mapping to open files relative to the current file instead, similar to how the built-in `gf` works:
+
+```vim
+" Allow gf to open non-existent files relative to current file:
+map gf :edit %:h/<cfile><cr>
+```
 
 ## Credits
 
